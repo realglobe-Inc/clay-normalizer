@@ -1,6 +1,6 @@
 {
   "name": "clay-normalizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Normalizer for clay-collection",
   "browser": "shim/browser",
   "main": "lib",
