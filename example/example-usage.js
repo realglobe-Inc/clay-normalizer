@@ -11,7 +11,7 @@ const { normalize, denormalize } = require('clay-normalizer')
   let { pointers, pointed, relations } = normalize([ user01, user02 ])
 
   console.log(pointers) // -> [ 'User#1', 'User#2' ]
-  console.log(pointed) // -> { User: { '1': { /* ... */ }, '2': { /* ... */ } }, Org: { '2': { /* ... */ } } }
+  console.log(pointed) // -> { User: { '1': { /* ... */ }, '2': { /* ... */ } }, Org: { '1': { /* ... */ } } }
   console.log(relations) // -> { 'User#1': { org: 'Org#1' }, 'User#2': { org: 'Org#1' } }
 
   let users = denormalize({ pointers, pointed, relations })
