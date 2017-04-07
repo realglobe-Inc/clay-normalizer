@@ -1,6 +1,6 @@
 {
   "name": "clay-normalizer",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Normalizer for clay-collection",
   "browser": "shim/browser",
   "main": "lib",
@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/realglobe-Inc/clay-normalizer#readme",
   "dependencies": {
-    "clay-entity": "^1.5.1",
-    "clay-id": "^2.0.1",
-    "clay-resource-name": "^3.0.1",
-    "clay-resource-ref": "^1.0.2",
+    "clay-entity": "^2.0.1",
+    "clay-id": "^3.0.1",
+    "clay-resource-name": "^4.0.1",
+    "clay-resource-ref": "^1.1.3",
     "co": "^4.6.0"
   },
   "devDependencies": {
@@ -40,7 +40,7 @@
     "ape-tasking": "^4.0.9",
     "ape-tmpl": "^5.0.20",
     "ape-updating": "^4.1.0",
-    "clay-collection": "^1.0.1",
+    "clay-collection": "^2.0.1",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
     "sugos-travis": "^2.0.7"
@@ -48,8 +48,5 @@
   "engines": {
     "node": ">=6",
     "npm": ">=4"
-  },
-  "publishConfig": {
-    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
   }
 }
